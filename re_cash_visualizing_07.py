@@ -385,3 +385,6 @@ deck = pdk.Deck(
 )
 
 deck.to_html("globe_view.html", css_background_color="black")
+
+if __name__ == "__main__":
+    app.run_server(debug=True)
