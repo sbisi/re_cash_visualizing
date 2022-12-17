@@ -11,6 +11,16 @@ Original file is located at
 
 # pip install pydeck
 
+import dash
+
+# replace wegen render.com
+# import dash_html_components as html
+from dash import html
+# import dash_core_components as dcc
+from dash import dcc
+
+import pandas as pd
+
 import pydeck as pdk
 import pandas as pd
 
