@@ -271,6 +271,10 @@ df = re_cash_columns_random
 
 # Define a layer to display on a map
 
+# neu Dezember 22
+app = dash.Dash(__name__)
+server = app.server
+
 layer = pdk.Layer(
     "GridLayer", df, pickable=True, extruded=True, cell_size=200, elevation_scale=4, get_position=['Longitude', 'Latitude'],
 )
