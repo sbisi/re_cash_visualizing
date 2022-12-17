@@ -20,7 +20,7 @@ import pandas as pd
 # drive.mount('/content/drive')
 # path = "drive/My Drive/Colab Notebooks/re-cash/01_co2_visualizing_models/"
 # path
-data = pd.read_csv("avocado.csv")
+# data = pd.read_csv("avocado.csv")
 
 # re_cash = pd.read_csv(path + "co2_landscape.csv")
 re_cash = pd.read_csv("co2_landscape.csv")
